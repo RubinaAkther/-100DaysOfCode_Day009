@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 65%;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 657px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 568px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .left-container {
+    width: 100%;
+    border-radius: 0;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  .right-container {
+    width: 100%;
+  }
+}
